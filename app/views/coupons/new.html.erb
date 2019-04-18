@@ -10,4 +10,5 @@
   <%= submit_tag "Submit Coupon" %>
 <% end %>
 
-<%= params.inspect %>
+<%= params[:coupon][:coupon_code] %>
+<%= params[:coupon][:store] %>
